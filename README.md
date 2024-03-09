@@ -48,12 +48,13 @@ data
 |       ├── test_hico.json
 |       └── trainval_hico.json
 ```
-###v-coco
+### v-coco
 the preparation of v-coco requires python2, and please follow [v-coco](https://github.com/s-gupta/v-coco)
 
 For evaluation, please put 'vcoco_test.ids' and 'vcoco_test.json' into 'data/v-coco/data folder'.
 
 After preparation, the data/v-coco folder as follows:
+'''
 data
 ├── v-coco
 |   ├── prior.pickle
@@ -68,7 +69,7 @@ data
 |       ├── corre_vcoco.npy
 |       ├── test_vcoco.json
 |       └── trainval_vcoco.json
-
+'''
 ## Run
 
 
