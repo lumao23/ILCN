@@ -1,6 +1,7 @@
 # ILCN
 This page is the code of our paper (in submission) "Intra-and-inter Instance Location Correlation Network for Human Object Interaction Detection".
-![image](/pictures/Intra-and-inter Instance Location Correlated Network for Human Object Interaction Detection-600.jpg)
+
+![image](/pictures/Intra-and-inter Instance Location Correlated Network for Human Object Interaction Detection-600.jpg "ilcn")
 
 ## Installation
 Our model is run under ```CUDA>=9.2, GCC>=5.4,Python>=3.7  ```. Other versions might be available as well.
