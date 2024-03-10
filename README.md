@@ -107,6 +107,36 @@ Our results are provided here as well as pre-trained parameters.
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1mBhwv_R7pydwKHhwdDglzMdXng6H03nQ">model</a></td>
 </tbody></table>
 
+### v-coco
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom">Name</th>
+ <th valign="bottom">pretrain</th>
+<th valign="bottom">Backbone</th>
+<th valign="bottom">query</th>
+<th valign="bottom">epochs</th>
+<th valign="bottom">mAP_all</th>
+ <th valign="bottom">mAP_thesis</th>
+<th valign="bottom">download</th>
+<!-- TABLE BODY -->
+ <tr><td align="left"><a href="">ILCN</a></td>
+<td align="center"><a href="https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth">w\o pre-train</a></td>
+<td align="center">swin-tiny</td>
+<td align="center">128</td>
+<td align="center">100</td>
+<td align="center">53.15</td>
+<td align="center">52.97</td>
+<td align="center"><a href="https://drive.google.com/drive/u/1/folders/1AtQVLvNIRqv5-yh-YEKgq9d-Y5vkV1Pp">model</a></td>
+ <tr><td align="left"><a href="https://github.com/lumao23/ILCN/blob/mai">ILCN<a/></td>
+<td align="center"><a href="https://drive.google.com/drive/u/1/folders/1NVror7POAtsqQZUfQGg-2jbON9PTWzW2">pre-train</a></td>
+<td align="center">swin-tiny</td>
+<td align="center">128</td>
+<td align="center">100</td>
+<td align="center">61.58</td>
+<td align="center">63.07</td>
+<td align="center"><a href="https://drive.google.com/drive/u/1/folders/1mBhwv_R7pydwKHhwdDglzMdXng6H03nQ">model</a></td>
+</tbody></table>
 
 
 ### To support fp16
