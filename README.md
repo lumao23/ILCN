@@ -143,5 +143,5 @@ The official evaluation steps can be seen in [PPDM](https://github.com/YueLiao/P
 Follow the process of [v-coco](https://github.com/s-gupta/v-coco) to output the official evaluations.
 
 
-The training logs of our models can be downloaded in column `download`. Models on hico-det are trained and tested under 2 NVIDIA A40(48GB), and v-coco under 2NVIDIA A10(24GB).
+The training logs of our models can be downloaded in column `download`. Models on hico-det are trained and tested under 2 NVIDIA A40(48GB), and v-coco under 2 NVIDIA A10(24GB).
 
