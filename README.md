@@ -120,7 +120,7 @@ Our results are provided here as well as pre-trained parameters.
  <th valign="bottom">mAP_thesis</th>
 <th valign="bottom">download</th>
 <!-- TABLE BODY -->
- <tr><td align="left"><a href="">ILCN</a></td>
+ <tr><td align="left"><a href="https://github.com/lumao23/ILCN/blob/main/vcoco_tools/train_vcoco_swin_all_6dec_4numfeat_ImageNet.sh">ILCN</a></td>
 <td align="center"><a href="https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth">w\o pre-train</a></td>
 <td align="center">swin-tiny</td>
 <td align="center">128</td>
@@ -128,7 +128,7 @@ Our results are provided here as well as pre-trained parameters.
 <td align="center">53.15</td>
 <td align="center">52.97</td>
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1AtQVLvNIRqv5-yh-YEKgq9d-Y5vkV1Pp">model</a></td>
- <tr><td align="left"><a href="https://github.com/lumao23/ILCN/blob/mai">ILCN<a/></td>
+ <tr><td align="left"><a href="https://github.com/lumao23/ILCN/blob/main/vcoco_tools/train_vcoco_swin_all_6dec_4numfeat_COCO.sh">ILCN<a/></td>
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1NVror7POAtsqQZUfQGg-2jbON9PTWzW2">pre-train</a></td>
 <td align="center">swin-tiny</td>
 <td align="center">128</td>
