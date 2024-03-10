@@ -96,7 +96,7 @@ Our results are provided here as well as pre-trained parameters.
 <td align="center">25.47</td>
 <td align="center">32.34</td>
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1AtQVLvNIRqv5-yh-YEKgq9d-Y5vkV1Pp">model</a></td>
- <tr><td align="left">ILCN</td>
+ <tr><td align="left"><a href="https://github.com/lumao23/ILCN/blob/main/hico_tools/train_hico_swin_all_6dec_4numfeat_COCO.sh">ILCN<a/></td>
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1NVror7POAtsqQZUfQGg-2jbON9PTWzW2">pre-train</a></td>
 <td align="center">swin-tiny</td>
 <td align="center">128</td>
