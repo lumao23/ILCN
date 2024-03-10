@@ -87,7 +87,7 @@ Our results are provided here as well as pre-trained parameters.
  <th valign="bottom">non-rare(def)</th>
 <th valign="bottom">download</th>
 <!-- TABLE BODY -->
- <tr><td align="left">ILCN</td>
+ <tr><td align="left"><a href="https://github.com/lumao23/ILCN/blob/main/hico_tools/train_hico_swin_all_3dec_3numfeat_ImageNet.sh">ILCN</a></td>
 <td align="center"><a href="https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth">w\o pre-train</a></td>
 <td align="center">swin-tiny</td>
 <td align="center">128</td>
