@@ -87,22 +87,24 @@ Our results are provided here as well as pre-trained parameters.
  <th valign="bottom">non-rare(def)</th>
 <th valign="bottom">download</th>
 <!-- TABLE BODY -->
- <tr><td align="left"><a href="configs/two_stage/deformable-detr-baseline/12eps/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">Deformable-DETR</a></td>
-<td align="center">a href="https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth">w\o pre-train</a></td>
+ <tr><td align="left">ILCN</td>
+<td align="center"><a href="https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth">w\o pre-train</a></td>
 <td align="center">swin-tiny</td>
 <td align="center">128</td>
 <td align="center">100</td>
 <td align="center">30.76</td>
 <td align="center">25.47</td>
 <td align="center">32.34</td>
-<td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_12eps.pth">model</a></td>
- <tr><td align="left"><a href="configs/two_stage/deformable-detr-baseline/36eps/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">Deformable-DETR</a></td>
-<td align="center">R50</td>
-<td align="center">300</td>
-<td align="center">36</td>
-<td align="center">46.8</td>
-<td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_36eps.pth">model</a></td>
-</tr>
+<td align="center"><a href="https://drive.google.com/drive/u/1/folders/1AtQVLvNIRqv5-yh-YEKgq9d-Y5vkV1Pp">model</a></td>
+ <tr><td align="left">ILCN</td>
+<td align="center"><a href="https://drive.google.com/drive/u/1/folders/1NVror7POAtsqQZUfQGg-2jbON9PTWzW2">pre-train</a></td>
+<td align="center">swin-tiny</td>
+<td align="center">128</td>
+<td align="center">100</td>
+<td align="center">33.80</td>
+<td align="center">29.83</td>
+<td align="center">34.99</td>
+<td align="center"><a href="https://drive.google.com/drive/u/1/folders/1mBhwv_R7pydwKHhwdDglzMdXng6H03nQ">model</a></td>
 </tbody></table>
 
 
