@@ -145,9 +145,3 @@ Follow the process of [v-coco](https://github.com/s-gupta/v-coco) to output the 
 
 The training logs of our models can be downloaded in column `download`. Models on hico-det are trained and tested under 2 NVIDIA A40(48GB), and v-coco under 2NVIDIA A10(24GB).
 
-### To support fp16
-* models/ops/modules/ms_deform_attn.py
-* models/ops/functions/ms_deform_attn_func.py
-
-### To fix a pytorch version bug
-* util/misc.py
