@@ -106,6 +106,7 @@ Our results are provided here as well as pre-trained parameters.
 <td align="center">34.99</td>
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1mBhwv_R7pydwKHhwdDglzMdXng6H03nQ">model</a></td>
 </tbody></table>
+The official evaluation steps can be seen in [PPDM](https://github.com/YueLiao/PPDM?tab=readme-ov-file#test) and [HO-RCNN](https://github.com/ywchao/ho-rcnn)
 
 ### v-coco
 <table><tbody>
@@ -138,7 +139,10 @@ Our results are provided here as well as pre-trained parameters.
 <td align="center"><a href="https://drive.google.com/drive/u/1/folders/1mBhwv_R7pydwKHhwdDglzMdXng6H03nQ">model</a></td>
 </tbody></table>
 
-The training logs of our models can be downloaded in column `download`, and models on hico-det are trained and tested under 2 NVIDIA A40(48GB), and v-coco under 2NVIDIA A10(24GB).
+Follow the process of [v-coco](https://github.com/s-gupta/v-coco) to output the official evaluations.
+
+
+The training logs of our models can be downloaded in column `download`. Models on hico-det are trained and tested under 2 NVIDIA A40(48GB), and v-coco under 2NVIDIA A10(24GB).
 
 ### To support fp16
 * models/ops/modules/ms_deform_attn.py
