@@ -74,22 +74,27 @@ data
 ## Test
 Our results are provided here as well as pre-trained parameters.
 ### hico-det
-### Models with the ResNet-50 backbone
 <table><tbody>
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
 <th valign="bottom">Name</th>
+ <th valign="bottom">pretrain</th>
 <th valign="bottom">Backbone</th>
 <th valign="bottom">query</th>
 <th valign="bottom">epochs</th>
-<th valign="bottom">AP</th>
+<th valign="bottom">Full(def)</th>
+ <th valign="bottom">Rare(def)</th>
+ <th valign="bottom">non-rare(def)</th>
 <th valign="bottom">download</th>
 <!-- TABLE BODY -->
  <tr><td align="left"><a href="configs/two_stage/deformable-detr-baseline/12eps/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">Deformable-DETR</a></td>
-<td align="center">R50</td>
-<td align="center">300</td>
-<td align="center">12</td>
-<td align="center">43.7</td>
+<td align="center">a href="https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth">w\o pre-train</a></td>
+<td align="center">swin-tiny</td>
+<td align="center">128</td>
+<td align="center">100</td>
+<td align="center">30.76</td>
+<td align="center">25.47</td>
+<td align="center">32.34</td>
 <td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_12eps.pth">model</a></td>
  <tr><td align="left"><a href="configs/two_stage/deformable-detr-baseline/36eps/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">Deformable-DETR</a></td>
 <td align="center">R50</td>
@@ -97,38 +102,6 @@ Our results are provided here as well as pre-trained parameters.
 <td align="center">36</td>
 <td align="center">46.8</td>
 <td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_36eps.pth">model</a></td>
-</tr>
-</tr>
- <tr><td align="left"><a href="configs/two_stage/deformable-detr-baseline/12eps/r50_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">Deformable-DETR + tricks</a></td>
-<td align="center">R50</td>
-<td align="center">300</td>
-<td align="center">12</td>
-<td align="center">47.0</td>
-<td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_12eps.pth">model</a></td>
-</tr>
-</tr>
- <tr><td align="left"><a href="configs/two_stage/deformable-detr-baseline/36eps/r50_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">Deformable-DETR + tricks</a></td>
-<td align="center">R50</td>
-<td align="center">300</td>
-<td align="center">36</td>
-<td align="center">49.0</td>
-<td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_36eps.pth">model</a></td>
-</tr>
-</tr>
- <tr><td align="left"><a href="configs/two_stage/deformable-detr-hybrid-branch/12eps/r50_hybrid_branch_lambda1_group6_t1500_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">H-Deformable-DETR + tricks</a></td>
-<td align="center">R50</td>
-<td align="center">300</td>
-<td align="center">12</td>
-<td align="center">48.7</td>
-<td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_hybrid_branch_lambda1_group6_t1500_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_12eps.pth">model</a></td>
-</tr>
-</tr>
- <tr><td align="left"><a href="configs/two_stage/deformable-detr-hybrid-branch/36eps/r50_hybrid_branch_lambda1_group6_t1500_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage.sh">H-Deformable-DETR + tricks</a></td>
-<td align="center">R50</td>
-<td align="center">300</td>
-<td align="center">36</td>
-<td align="center">50.0</td>
-<td align="center"><a href="https://github.com/HDETR/H-Deformable-DETR/releases/download/v0.1/r50_hybrid_branch_lambda1_group6_t1500_dp0_mqs_lft_deformable_detr_plus_iterative_bbox_refinement_plus_plus_two_stage_36eps.pth">model</a></td>
 </tr>
 </tbody></table>
 
