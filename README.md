@@ -21,7 +21,7 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 ```
 Or you can follow the instruction on https://pytorch.org/get-started/locally/ for another pytorch version
 
-2. Compiling CUDA operators
+3. Compiling CUDA operators
 ```sh
 cd models/ops
 python setup.py build install
