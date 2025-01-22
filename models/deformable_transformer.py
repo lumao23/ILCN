@@ -130,7 +130,7 @@ class DeformableTransformer(nn.Module):
         nq, dim = query_embed.shape
         query_embed, tgt = torch.split(query_embed, c, dim=1)
 
-        query_embed = torch.cat([(query_embed[:nq//2,:]+query_embed[nq//2:,:])/2]*2,dim=0)
+        # query_embed = torch.cat([(query_embed[:nq//2,:]+query_embed[nq//2:,:])/2]*2,dim=0)
         query_embed = query_embed.unsqueeze(0).expand(bs, -1, -1)
         tgt = tgt.unsqueeze(0).expand(bs, -1, -1)
         reference_points = self.reference_points(query_embed).sigmoid()
